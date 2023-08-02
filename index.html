@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <div class="navbar_container">
+          <h1>Adventure Seekers</h1>
+          <ul class="nav_links">
+            <li><a href="#jumbotron">Home</a></li>
+            <li><a href="#our-package">Our Package</a></li>
+            <li><a href="#right-container">Call Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="jumbotron">
+      <div>
+        <div>
+          <h1>Your Trusted Travel Agent</h1>
+        </div>
+        <div>
+          <h3>Jelajahi Destinasi Impian, Rasakan Keindahannya</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="left-container">
+          <img src="img/beach.jpg" alt="" id="img-slide" />
+          <small id="slash">1/4</small>
+          <p>
+            <em
+              >"Liburan saya terasa sangat menyenangkan dengan Adventure
+              Seekers"</em
+            >
+          </p>
+          <table style="width: 100%">
+            <tr>
+              <td style="width: 50%; text-align: right">
+                <div class="center">
+                  <span class="material-symbols-outlined">Person</span>
+                </div>
+              </td>
+              <td>
+                <p
+                  style="
+                    text-align: left;
+                    margin-left: 10px;
+                    padding: 0;
+                    margin: 0;
+                  "
+                >
+                  cek
+                </p>
+                <p
+                  style="
+                    text-align: left;
+                    margin-left: 10px;
+                    padding: 0;
+                    margin: 0;
+                  "
+                >
+                  <em>ibu rumah tangga, 28</em>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <!-- <span class="material-symbols-outlined">Person</span>
+          <p>cek</p>
+          <p><em>ibu rumah tangga, 28</em></p> -->
+          <div style="display: flex; justify-content: center; position: static">
+            <hr />
+          </div>
+          <h3>Mengapa anda harus memilih Adventure Seekers?</h3>
+          <ol>
+            <li>
+              <b>Tim Profesional</b> : Tim kami terdiri dari profesional yang
+              berpengalaman dan penuh semangat dalam menyediakan layanan terbaik
+              untuk Anda.
+            </li>
+            <li>
+              <b>Paket Wisata Menarik</b> : Kami menyediakan paket wisata yang
+              dirancang dengan baik, menggabungkan pengalaman dan aktivitas
+              menarik untuk memberikan pengalaman perjalanan yang tak
+              terlupakan.
+            </li>
+            <li>
+              <b>Harga Kompetitif</b> : Kami berkomitmen untuk memberikan harga
+              yang kompetitif dan nilai yang luar biasa untuk setiap paket
+              perjalanan.
+            </li>
+          </ol>
+        </div>
+        <div id="right-container">
+          <h3>Contact Us</h3>
+          <p>
+            Marketing kami akan menghubungi anda 1x24 jam setelah kami menerima
+            data anda
+          </p>
+          <form action="#" method="post">
+            <label for="name">Nama anda :</label><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Masukkan nama anda"
+              data-type="nama"
+              class="inputan"
+            />
+            <br />
+            <small id="alert-name" style="color: red"></small>
+            <br />
+
+            <label for="email">Alamat Email anda :</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="contoh@email.com"
+              data-type="email"
+              class="inputan"
+            />
+            <br />
+            <small id="alert-email" style="color: red"></small>
+            <br />
+
+            <div class="select-container">
+              <label for="selectOption">Anda tertarik dengan :</label><br />
+              <select id="selectOption">
+                <option value="" disabled selected>
+                  Silahkan pilih jasa kami
+                </option>
+                <option value="option1">Pemesanan tiket pesawat</option>
+                <option value="option2">Pemesanan tiket kapal</option>
+                <option value="option3">Pemesanan transportasi lokal</option>
+                <option value="option4">Hotel Booking</option>
+                <option value="option5">Villa Booking</option>
+                <option value="option6">Apartement Booking</option>
+                <option value="option7">Booking penginapan lainnya</option>
+                <option value="option8">Paket liburan</option>
+                <option value="option9">Perjalanan wisata</option>
+                <option value="option10">Perjalanan khusus dan acara</option>
+                <option value="option11">Informasi destinasi</option>
+              </select>
+            </div>
+            <br />
+            <input type="submit" value="Kirim" />
+          </form>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#FFC95F"
+          fill-opacity="1"
+          d="M0,128L60,144C120,160,240,192,360,197.3C480,203,600,181,720,149.3C840,117,960,75,1080,64C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="our-package">
+      <div>
+        <div>
+          <div>
+            <h1>Our Package</h1>
+          </div>
+          <div class="paket">
+            <figure>
+              <img src="img/bali.jpg" alt="bali" />
+              <figcaption class="head-deskripsi"><b>Bali</b></figcaption>
+              <figcaption class="deksripsi">
+                <p>
+                  Bali, pulau dewata yang memesona, menawarkan pesona alam yang
+                  menakjubkan dengan pantai-pantai berpasir putih yang memikat,
+                  samudra biru yang menghampar, dan ombak yang membelai lembut.
+                </p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="img/japan.jpg" alt="japan" />
+              <figcaption class="head-deskripsi"><b>Japan</b></figcaption>
+              <figcaption class="deskripsi">
+                <p>
+                  Jepang, negeri matahari terbit yang memesona, menawarkan
+                  keindahan alam yang menakjubkan dengan gunung-gunung yang
+                  menjulang tinggi, danau-danau yang jernih, serta taman-taman
+                  yang rapi dan memukau.
+                </p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="img/singapore.jpg" alt="japan" />
+              <figcaption class="head-deskripsi"><b>Singapore</b></figcaption>
+              <figcaption class="deskripsi">
+                <p>
+                  Singapore, kota-negara yang memikat, menyuguhkan keindahan
+                  yang mempesona dengan panorama modern yang menakjubkan.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <hr />
+          <div class="paket">
+            <figure style="padding-bottom: 10rem">
+              <img src="img/Bandung.jpg" alt="japan" />
+              <figcaption class="head-deskripsi"><b>Bandung</b></figcaption>
+              <figcaption class="deskripsi">
+                <p>
+                  Bandung, kota kembang yang menawan, memukau hati dengan
+                  keindahan alam pegunungan yang memeluknya dengan lembut. Udara
+                  sejuk dan pemandangan hamparan kebun teh yang hijau
+                  menghadirkan ketenangan dan kedamaian bagi siapa pun yang
+                  datang berkunjung.
+                </p>
+              </figcaption>
+            </figure>
+            <figure style="padding-bottom: 10rem">
+              <img src="img/Surabaya.jpg" alt="japan" />
+              <figcaption class="head-deskripsi"><b>Surabaya</b></figcaption>
+              <figcaption class="deskripsi">
+                <p>
+                  Surabaya, kota pahlawan yang memikat, menawarkan keindahan
+                  yang khas dengan pesona budaya dan sejarah yang kaya. Jantung
+                  kota yang modern dipadukan dengan nuansa tempo dulu,
+                  menciptakan harmoni yang unik dan menarik.
+                </p>
+              </figcaption>
+            </figure>
+            <figure style="padding-bottom: 10rem">
+              <img src="img/Lombok.jpg" alt="japan" />
+              <figcaption class="head-deskripsi"><b>Lombok</b></figcaption>
+              <figcaption class="deskripsi">
+                <p>
+                  Lombok, permata tropis yang memukau, menawarkan pesona alam
+                  yang luar biasa dengan pantai-pantai eksotis berpasir putih
+                  yang terhampar luas, air laut yang jernih berwarna biru
+                  kehijauan, dan ombak yang memikat para peselancar.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-argument">
+      <div class="wrapper">
+        <div>
+          <h2>
+            "Jelajahi Dunia Dengan Kami: Pengalaman Perjalanan Tak Terlupakan
+            Menanti! Pesan Sekarang dan Nikmati Penawaran Spesial."
+          </h2>
+        </div>
+        <div>
+          <p>
+            Dengan pengalaman kami yang luas dan komitmen untuk memberikan
+            layanan terbaik, travel agent kami adalah mitra terpercaya yang siap
+            menghadirkan petualangan tak terlupakan bagi Anda. Dari destinasi
+            eksotis hingga liburan romantis, kami menawarkan pilihan perjalanan
+            yang beragam sesuai dengan preferensi dan anggaran Anda. Tim kami
+            yang berpengalaman akan membantu merencanakan setiap detail
+            perjalanan Anda, sehingga Anda dapat menikmati momen-momen berharga
+            tanpa repot. Jadikan impian perjalanan Anda menjadi kenyataan
+            bersama travel agent kami, dan nikmati pengalaman liburan yang tak
+            terlupakan sepanjang masa. Percayakan perjalanan Anda pada ahlinya,
+            dan mari kita jajaki dunia bersama!
+          </p>
+        </div>
+        <div>
+          <button class="Contact">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div>
+        <h5>Adventure Seekers</h5>
+      </div>
+      <div>
+        <p>Terms of Service</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div>
+        <p style="display: block">2023</p>
+        <p style="display: block"><em>Create with love by Fajar A.M</em></p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
